@@ -1,4 +1,2 @@
 # Web Paraktkum 
-Nama    : Fikri Achmad Fauzan
-NIM     : 0110221122
-Rombel  : TI05
+Fikri Achmad Fauzan - 0110221122 - TI05
