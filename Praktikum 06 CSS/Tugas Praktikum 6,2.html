@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 6.2</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        body {
+            box-sizing: border-box;
+            justify-self:center ;
+            padding: 1em;
+        }
+        .Container-satu{
+            display: flex; 
+            flex-direction: row; 
+        }
+        nav{
+            background-color: rgb(95, 223, 255); 
+            align-items: stretch; 
+            width: 25%;
+        }
+        .Container-dua{
+            display: flex; 
+            min-height: 100vh; 
+            flex-direction: column; 
+        }
+        header,footer{
+            background-color: rgb(148, 240, 140); 
+            width: 1000px; 
+            height: 100px;
+        }
+        #main{
+            display: flex; 
+            flex: 1;
+        }
+        .article{
+            flex: 1; 
+            order: 1;
+        }
+        .aside{
+            flex: 0 0 20vw; 
+            background-color: rgb(231, 96, 255); 
+            order: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="Container-satu">
+        <nav>Nav</nav>
+        <div class="Container-dua">
+        <header>Header</header>
+            <div id="main">
+            <article class="article">Article</article>
+            <aside class="aside">Aside</aside>
+            </div>
+        <footer>Footer</footer>
+        </div>
+    </div>
+</body>
+</html>
